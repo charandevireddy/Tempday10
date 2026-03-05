@@ -23,7 +23,7 @@ public class JwtUtil {
         this.supplierRepository = supplierRepository;
     }
 
-    private final String secret = "secretKey000000000000000000000000000000000000000000000000000000000000000000000000000000000000000";
+    private final String secret = "secretkey";
 
     private final int expiration = 86400;
 
